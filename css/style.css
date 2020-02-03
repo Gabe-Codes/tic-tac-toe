@@ -19,22 +19,31 @@ body {
 	text-align: center;
 }
 
-.top { border-top: 2px solid gray;;}
-.bottom { border-top: 2px solid gray;;}
-.left { border-top: 2px solid gray;;}
-.right { border-top: 2px solid gray;;}
+.top {
+	border-top: 2px solid gray;
+}
 
-.game-board {
+.bottom {
+	border-bottom: 2px solid gray;
+}
+
+.left {
+	border-left: 2px solid gray;
+}
+
+.right {
+	border-right: 2px solid gray;
+}
+
+#game-board {
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	height: 600px;
 	width: 600px;
-	background-color: blueviolet;
-	padding: 0;
 }
 
-.grid-item {
+.square {
 	height: 200px;
 	width: 200px;
 	font-size: 100px;
