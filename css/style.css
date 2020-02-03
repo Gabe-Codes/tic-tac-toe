@@ -1,0 +1,20 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: 10vmin 10vmin 10vmin;
+	grid-template-rows: 10vmin 10vmin 10vmin;
+	background-color: blueviolet;
+	padding: 10vmin;
+}
+
+.grid-item {
+	font-size: 8vmin;
+	text-align: center;
+	border: 1vmin solid red;
+}
