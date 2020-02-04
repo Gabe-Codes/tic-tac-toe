@@ -1,20 +1,87 @@
+/* Reset CSS */
 *,
 *:before,
 *:after {
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-family: "Comic Sans MS", "Comic Sans";
+	background-color: black;
+	border-radius: 20px;
+	outline: 0 !important;
 }
 
-#grid {
-	display: grid;
-	grid-template-columns: 10vmin 10vmin 10vmin;
-	grid-template-rows: 10vmin 10vmin 10vmin;
-	background-color: blueviolet;
-	padding: 10vmin;
-}
-
-.grid-item {
+header {
 	font-size: 8vmin;
-	text-align: center;
-	border: 1vmin solid red;
+	color: #ab20fd;
 }
+
+h4 {
+	font-size: 4vmin;
+	color: #ab20fd;
+}
+
+body {
+	text-align: center;
+}
+
+.top {
+	border-top: 8px solid #ab20fd;
+}
+
+.bottom {
+	border-bottom: 8px solid #ab20fd;
+}
+
+.left {
+	border-left: 8px solid #ab20fd;
+}
+
+.right {
+	border-right: 8px solid #ab20fd;
+}
+
+#game-board {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	height: 600px;
+	width: 600px;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	font-size: 100px;
+	font-family: Helvetica;
+	font-weight: 700;
+	color: #00b4fb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#reset {
+	font-size: 3vmin;
+	background-color: #ab20fd;
+	color: black;
+	border-color: black;
+}
+
+/* h3 {
+	font-size: 4vmin;
+	color: purple;
+}
+
+#xBtn {
+	font-size: 3vmin;
+	background-color: black;
+	color: blue;
+	border-color: purple;
+}
+
+#oBtn {
+	font-size: 3vmin;
+	background-color: black;
+	color: red;
+	border-color: purple;
+} */
