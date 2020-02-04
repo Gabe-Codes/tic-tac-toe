@@ -7,24 +7,29 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Tic-Tac-Toe Game</title>
 	<link rel="stylesheet" href="./css/style.css">
-	<script src="./js/script.js"></script>
+	<script defer src="./js/script.js"></script>
 </head>
 
 <body>
 	<header>TIC-TAC-TOE</header>
-	<h4 id="message">X's Turn</h4>
+	<h4 id="message"><span id="user"></span>'s Turn</h4>
 	<main id="game-board">
-		<div data-index="4" class="square bottom"></div>
-		<div data-index="0" class="square bottom left right"></div>
-		<div data-index="1" class="square bottom"></div>
-		<div data-index="2" class="square"></div>
-		<div data-index="3" class="square left right"></div>
+		<div data-index="0" class="square bottom"></div>
+		<div data-index="1" class="square bottom left right"></div>
+		<div data-index="2" class="square bottom"></div>
+		<div data-index="3" class="square"></div>
+		<div data-index="4" class="square left right"></div>
 		<div data-index="5" class="square"></div>
 		<div data-index="6" class="square top"></div>
 		<div data-index="7" class="square top left right"></div>
 		<div data-index="8" class="square top"></div>
 	</main>
-	
+	<button id="reset">RESET</button>
+	<!-- <h3>Choose Who Starts!</h3>
+	<section id="first">
+		<button id="xBtn">X</button>
+		<button id="oBtn">O</button>
+	</section> -->
 </body>
 
 </html>

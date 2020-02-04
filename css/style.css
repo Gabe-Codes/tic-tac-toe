@@ -4,15 +4,20 @@
 *:after {
 	box-sizing: border-box;
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", "Comic Sans";
+	background-color: black;
+	border-radius: 20px;
+	outline: 0 !important;
 }
 
 header {
 	font-size: 8vmin;
+	color: #ab20fd;
 }
 
 h4 {
 	font-size: 4vmin;
+	color: #ab20fd;
 }
 
 body {
@@ -20,19 +25,19 @@ body {
 }
 
 .top {
-	border-top: 2px solid gray;
+	border-top: 8px solid #ab20fd;
 }
 
 .bottom {
-	border-bottom: 2px solid gray;
+	border-bottom: 8px solid #ab20fd;
 }
 
 .left {
-	border-left: 2px solid gray;
+	border-left: 8px solid #ab20fd;
 }
 
 .right {
-	border-right: 2px solid gray;
+	border-right: 8px solid #ab20fd;
 }
 
 #game-board {
@@ -49,8 +54,34 @@ body {
 	font-size: 100px;
 	font-family: Helvetica;
 	font-weight: 700;
-	color: black;
+	color: #00b4fb;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+#reset {
+	font-size: 3vmin;
+	background-color: #ab20fd;
+	color: black;
+	border-color: black;
+}
+
+/* h3 {
+	font-size: 4vmin;
+	color: purple;
+}
+
+#xBtn {
+	font-size: 3vmin;
+	background-color: black;
+	color: blue;
+	border-color: purple;
+}
+
+#oBtn {
+	font-size: 3vmin;
+	background-color: black;
+	color: red;
+	border-color: purple;
+} */
